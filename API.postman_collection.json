@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "5c2dd0ea-3d0d-4414-9a22-27707431e698",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30185761"
+	},
+	"item": [
+		{
+			"name": "Comission",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/commission-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"commission-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"MarketingName\": \"Danang\",\r\n    \"Month\": \"June\",\r\n    \"paymentAmount\": 205000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/update-payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"update-payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

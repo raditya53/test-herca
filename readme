@@ -1,0 +1,10 @@
+test-kerja server
+-npm init
+-npm install express
+-npm install mysql2
+-npm install cors
+
+test-kerja ui
+-npm install
+
+untuk database, tinggal import saja sudah termasuk create DB dan table.
