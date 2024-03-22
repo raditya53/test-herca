@@ -8,3 +8,5 @@ test-kerja ui
 -npm install
 
 untuk database, tinggal import saja sudah termasuk create DB dan table.
+
+untuk postman bisa langsung di import dan langsung di coba dengan parameter yang disediakan
