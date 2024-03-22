@@ -3,9 +3,11 @@ test-kerja server
 -npm install express
 -npm install mysql2
 -npm install cors
+node server.js untuk menjalankan server
 
 test-kerja ui
 -npm install
+npm run dev untuk melihat tabel
 
 untuk database, tinggal import saja sudah termasuk create DB dan table.
 
